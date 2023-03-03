@@ -53,7 +53,17 @@ As a result, this method went from 0% to 100% coverage for the line, branch and 
 
 ![WhatsApp Image 2023-03-02 at 15 44 54](https://user-images.githubusercontent.com/30624408/222609721-138d7433-5344-4695-b16d-ccbd3dcfe137.jpg)
 
+**Method: scale(Range base, double factor)**
+**Class: Range.java**
 
+Similarly, this method was also not covered on the second assignment of this course, for this reason the team got 0% coverage after running EclEmma. When calling this method, it has mainly two routes, or branches after checking for the condition of the parameters. In case the factor argument is a negative double, it throws an exception, otherwise it will generate a new range based on inputted arguments. With that said, the method is composed of 2 branches, 5 lines and 1 method itself, leading the group to create 2 methods to test this portion of the Range.java class: scalePositive() and scaleNegative().
+
+- scaleNegative() passes exampleRange (which is a Range object ranging from -2 to 3) and -2 as the factor argument. With that, it falls under the first branch of the method, represented by the if statement. In this route, it triggers the IllegalArgumentException, leading to an error in the system. In summary, this method was able to cover tests of 1 branch and 2 lines of code, and of course the method scale itself. 
+- scalePositive() was intended not to fall under the first branch of the method. Because of that, it was tested with the same exampleRange object and 2 as the factor value. This forced the function to go into the second branch of the scale method. Through that route, the function generates a new Range object based on the Range boundaries multiplied by the factor value, in this case 2. In summary, this lead the testing unit to cover the second and final branch, and 2 more lines of code. 
+
+Finally, the team was able to increase the line, branch and method coverage of the scale method to 100%, once again bringing the over Range.java class coverage closer to the wanted percentage.
+
+![WhatsApp Image 2023-03-02 at 17 28 16](https://user-images.githubusercontent.com/30624408/222609895-a79b77fc-2dd9-49e3-9d10-689e5da062f2.jpg)
 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
