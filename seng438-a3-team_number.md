@@ -90,7 +90,8 @@ Text…
 
 # 8 A discussion on how the team work/effort was divided and managed
 
-Text…
+The team divided the work equally among all members. Similar to the previous assignment, Rayyan and Ammar were resposible for the deliverables related to the DataUtilities class while Eduardo and David worked on the Range class. After finishing every deliverable, the team shared their work amongst each other and the main highlights of their parts. With that, the team was able to spot possible mistakes and ways to improve our results and analysis. Just like the previous assignment, the teamwork was very important to ensure we had the best develirable possible. Having more people review our work, was certainly very helpful to get suggestions, correct possible erros, come up with different solutions and overall produce a better lab experience. Additionally, the team consistantly communicateed on our group chat to ensure everyone was at the same page, reducing the possibility of not very all develirables ready by the deadline.
+
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
