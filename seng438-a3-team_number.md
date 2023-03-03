@@ -25,7 +25,7 @@ Text…
 
 # 4 A high level description of five selected test cases you have designed using coverage information, and how they have increased code coverage
 
-**Method: combine(Range range1, Range range2)**    
+**1) Method: combine(Range range1, Range range2)**    
 **Class: Range.java**
 
 Previously, we did not create any test units for the combine() method inside the Range class, with that said, after running EclEmma for the first time, the team got 0,0% coverage for branch, line and method types of coverage.  When analysing the function, it is composed by two main if statements (branches) testing if the inputs are null, followed by the creation of two doubles using another pre determined function min() which were further used to return a new Range object. Concluding, that this method is composed of 7 lines to be tested, 3 possible branches and 1 method, this lead the group to create 3 separate test functions that went through all the possible routes of combine(): combineRange1Null(), combineRange2Null() and combineRight()
@@ -38,7 +38,7 @@ As a result, the combine() method achieved 100% line, method and branch coverage
 
 ![WhatsApp Image 2023-03-02 at 15 45 13](https://user-images.githubusercontent.com/30624408/222608833-1e0b9b21-8c6c-4848-82bf-4fdc97ae7a5f.jpg)
 
-**Method: expandToInclude(Range range, double value)**       
+**2) Method: expandToInclude(Range range, double value)**       
 **Class: Range.java**
 
 As the previous method, expandToInclude() was not part of the chosen functions to be tested previously. With that said, EclEmma displayed a 0% coverage for all types: line, method and branch for this method. Since it is composed by the 4 possible if statements (or branches), the function has to have at least 4 test function. Additionally, it is composed of 7 lines of code and the representing 1 method itself. In order to increase the test coverage of this method, the team created 4 test functions: expandToIncludeLessThanLower(), expandToIncludeValueMoreThanUpper(), expandToIncludeEqual() and expandToIncludeRangeNull(). 
@@ -52,7 +52,7 @@ As a result, this method went from 0% to 100% coverage for the line, branch and 
 
 ![WhatsApp Image 2023-03-02 at 15 44 54](https://user-images.githubusercontent.com/30624408/222609721-138d7433-5344-4695-b16d-ccbd3dcfe137.jpg)
 
-**Method: scale(Range base, double factor)**       
+**3) Method: scale(Range base, double factor)**       
 **Class: Range.java**
 
 Similarly, this method was also not covered on the second assignment of this course, for this reason the team got 0% coverage after running EclEmma. When calling this method, it has mainly two routes, or branches after checking for the condition of the parameters. In case the factor argument is a negative double, it throws an exception, otherwise it will generate a new range based on inputted arguments. With that said, the method is composed of 2 branches, 5 lines and 1 method itself, leading the group to create 2 methods to test this portion of the Range.java class: scalePositive() and scaleNegative().
@@ -66,12 +66,12 @@ Finally, the team was able to increase the line, branch and method coverage of t
 
 
 --------------------------------------
-**Method: scale(Range base, double factor)**       
+**4) Method: scale(Range base, double factor)**       
 **Class: DataUtilities.java**
     
   
    
-**Method: scale(Range base, double factor)**       
+**5) Method: scale(Range base, double factor)**       
 **Class: DataUtilities.java**
 
 
