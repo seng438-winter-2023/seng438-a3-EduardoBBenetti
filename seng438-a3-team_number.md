@@ -79,7 +79,8 @@ Finally, the team was able to increase the line, branch and method coverage of t
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-**Range Class:**
+**Range Class:**                
+
 ![image](https://user-images.githubusercontent.com/90352983/222763959-8d46e59d-770e-40fd-8be7-db104b47d26f.png)
 ![image](https://user-images.githubusercontent.com/90352983/222764038-3b66463d-2ca3-4358-b408-36af149a9f75.png)
 ![image](https://user-images.githubusercontent.com/90352983/222764347-5dec76df-2981-4c7d-b954-fed165af32f5.png)
