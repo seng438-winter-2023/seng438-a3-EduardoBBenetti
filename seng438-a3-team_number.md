@@ -13,8 +13,7 @@
 for each group. Please see each lab document for details.)
 
 # 1 Introduction
-
-Text…
+This lab session and report follows a in depth analysis of the coverage techniques and testing performed on the Range and Data Utilities class presented on the last lab assignment. In summary, the lab aims to use the tests created on the last session to enhance their converage, ensuring all possible branches of the methods are securily tested. With that, the group should be able to perform further analysis of the classes and overall test coverage methodologies. 
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
