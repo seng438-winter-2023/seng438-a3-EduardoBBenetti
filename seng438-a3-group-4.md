@@ -67,15 +67,33 @@ Finally, the team was able to increase the line, branch and method coverage of t
 
 
 --------------------------------------
-**4) Method: **       
+**4) Method: equal(double[][] a, double[][] b)**       
 **Class: DataUtilities.java**
-    
+
+
+This method was not covered in assignment 2, it is a new method introduced in DataUtilities class. Therefore, a 0% coverage was obtained after running EclEmma. This method checks for equality of 2 arrays, and the way this method is implemented is by checking if the 2 arrays are not equal through more than if branches, if not, then 2 arrays are equal. The method has 4 if branches where one of them will be visited in an execution of this method. 5 test cases were made for this method to allow the test of all branches and routes:
+
+- testEqualWithEqualArrays(): this test case is given 2 equal arrays to execute the method equal() on. This test skips all if branches and enters the for loop without visiting the if branch inside, and reaches the end where the method return true. This cover reaching the end of the method successfully.
+
+- testEqualWithNullArrays(): this test case is given two null arrays to execute the method equal() on. this test covers the first if branch in the code of the method.
+
+- testEqualWithOneNullandNonNull(): this test case is given one null array and one non null array to execute the method equal() on. this test covers the second if branch in the code of the method.
+
+- testEqualWithDifferentLengthArrays(): this test case is given two valid arrays with different lengths or sizes to execute the method equal() on. this test covers the third if branch in the code of the method.
+
+- testEqualWithSameLengthDifferentArrays():this test case is given two valid arrays with same size but different elements to execute the method equal() on. this test covers the fourth if branch in the code of the method, which is inside the for loop.
   
    
-**5) Method: **       
+**5) Method: calculateColumnTotal(Values2D data, int column, int[] ValidRows)**       
 **Class: DataUtilities.java**
 
+This method was also not covered in assignment 2 and had no test cases for it, therefore a 0% coverage on the three metrics: statement, branch, and method, was obtained. The method calculates the total sum of entries in a column only in the rows specified in the validrows int[]. The branches and routes in the implementation of this method were summarized to 3 cases by examining the code:
 
+-testCalculateColumnTotalWithValidRowsSpecified(): this test case is given an int array containing a list of valid rows in the table. this covers reaching the end of the method successfully, but leaves some branches unvisited and not tested.
+
+-testCalculateColumnTotalWithInValidRows(): this test case is given an int array with invalid rows. this covers the first if branch in the for loop.
+
+-testCalculateColumnTotalWithValidRowsNullValues(): this test case is given an int array with a list of valid rows found in the table, however the entries in some of those rows are null. this covers the inner (second) if branch in the for loop
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
