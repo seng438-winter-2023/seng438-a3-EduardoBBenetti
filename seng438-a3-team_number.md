@@ -96,7 +96,7 @@ The team divided the work equally among all members. Similar to the previous ass
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+We faced difficulties as the hamcrest eternal library is corrupted for this assignment so we needed to get the one from assignment 2. We couldn't
 
 # 10 Comments/feedback on the lab itself
 
