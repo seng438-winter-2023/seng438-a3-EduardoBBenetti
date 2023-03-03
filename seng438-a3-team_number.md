@@ -66,6 +66,17 @@ Finally, the team was able to increase the line, branch and method coverage of t
 ![WhatsApp Image 2023-03-02 at 17 28 16](https://user-images.githubusercontent.com/30624408/222609895-a79b77fc-2dd9-49e3-9d10-689e5da062f2.jpg)
 
 
+--------------------------------------
+**Method: scale(Range base, double factor)**       
+**Class: DataUtilities.java**
+
+
+
+**Method: scale(Range base, double factor)**       
+**Class: DataUtilities.java**
+
+
+
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
 Text…
