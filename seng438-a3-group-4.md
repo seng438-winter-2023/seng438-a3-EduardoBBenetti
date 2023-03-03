@@ -115,6 +115,20 @@ This method was also not covered in assignment 2 and had no test cases for it, t
 ![image](https://user-images.githubusercontent.com/90352983/222765145-552423e8-351d-4918-90e9-78bbb655d319.png)
 ![image](https://user-images.githubusercontent.com/90352983/222765249-c6708d98-4ee9-4c9a-b647-ee73c3ce3b55.png)
 
+**DataUtilities Class**
+
+<img width="627" alt="Screen Shot 2023-03-03 at 12 56 53 PM" src="https://user-images.githubusercontent.com/66806345/222815652-ad76d5f3-197d-4c21-97b1-c93154dfe485.png">
+<img width="627" alt="Screen Shot 2023-03-03 at 12 57 13 PM" src="https://user-images.githubusercontent.com/66806345/222815692-92a509e5-433a-4f2b-8721-968bffcbe50d.png">
+<img width="627" alt="Screen Shot 2023-03-03 at 12 57 22 PM" src="https://user-images.githubusercontent.com/66806345/222815738-b58c47df-a7e4-405b-9bd6-2a6b82cad185.png">
+
+<img width="627" alt="Screen Shot 2023-03-03 at 12 57 51 PM" src="https://user-images.githubusercontent.com/66806345/222815755-3ec7ab79-4ce6-4944-a15b-28e66680fa84.png">
+
+<img width="627" alt="Screen Shot 2023-03-03 at 12 58 10 PM" src="https://user-images.githubusercontent.com/66806345/222815769-97cad5a5-6491-4dfe-a87c-0d1c3df70642.png">
+
+<img width="627" alt="Screen Shot 2023-03-03 at 12 58 25 PM" src="https://user-images.githubusercontent.com/66806345/222815786-0353b4c0-9ee4-496d-bbb5-8e34a3579f42.png">
+
+<img width="627" alt="Screen Shot 2023-03-03 at 12 58 39 PM" src="https://user-images.githubusercontent.com/66806345/222815901-29d06188-25e3-437b-a533-d4c1e625c5a1.png">
+
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
