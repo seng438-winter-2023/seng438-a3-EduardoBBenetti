@@ -51,6 +51,8 @@ As the previous method, expandToInclude() was not part of the chosen functions t
 
 As a result, this method went from 0% to 100% coverage for the line, branch and method types, increasing the overall coverage of the Range.java class.
 
+![WhatsApp Image 2023-03-02 at 15 44 54](https://user-images.githubusercontent.com/30624408/222609721-138d7433-5344-4695-b16d-ccbd3dcfe137.jpg)
+
 
 
 
