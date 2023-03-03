@@ -145,7 +145,7 @@ The team divided the work equally among all members. Similar to the previous ass
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-Text…
+We couldn't run the test files as the hamcrest external library was corrupted, it took us a lot of time and effort to notice that, after we did we had to get the one from assignment 2. Another difficulty we faced was trying to use different tools (CodeCover, Clover), it was giving us errors related to compatability (not the code) so we had to work with Eclemma and do Branch, Line, Method coverages. Lessons learned was to work in pairs, fix bugs, write tests to increase coverage.
 
 # 10 Comments/feedback on the lab itself
 
