@@ -69,9 +69,9 @@ Finally, the team was able to increase the line, branch and method coverage of t
 --------------------------------------
 **Method: scale(Range base, double factor)**       
 **Class: DataUtilities.java**
-
-
-
+    
+  
+   
 **Method: scale(Range base, double factor)**       
 **Class: DataUtilities.java**
 
