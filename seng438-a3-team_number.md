@@ -39,7 +39,7 @@ As a result, the combine() method achieved 100% line, method and branch coverage
 
 ![WhatsApp Image 2023-03-02 at 15 45 13](https://user-images.githubusercontent.com/30624408/222608833-1e0b9b21-8c6c-4848-82bf-4fdc97ae7a5f.jpg)
 
-**Method: expandToInclude(Range range, double value)** 
+**Method: expandToInclude(Range range, double value)**       
 **Class: Range.java**
 
 As the previous method, expandToInclude() was not part of the chosen functions to be tested previously. With that said, EclEmma displayed a 0% coverage for all types: line, method and branch for this method. Since it is composed by the 4 possible if statements (or branches), the function has to have at least 4 test function. Additionally, it is composed of 7 lines of code and the representing 1 method itself. In order to increase the test coverage of this method, the team created 4 test functions: expandToIncludeLessThanLower(), expandToIncludeValueMoreThanUpper(), expandToIncludeEqual() and expandToIncludeRangeNull(). 
@@ -53,7 +53,7 @@ As a result, this method went from 0% to 100% coverage for the line, branch and 
 
 ![WhatsApp Image 2023-03-02 at 15 44 54](https://user-images.githubusercontent.com/30624408/222609721-138d7433-5344-4695-b16d-ccbd3dcfe137.jpg)
 
-**Method: scale(Range base, double factor)** 
+**Method: scale(Range base, double factor)**       
 **Class: Range.java**
 
 Similarly, this method was also not covered on the second assignment of this course, for this reason the team got 0% coverage after running EclEmma. When calling this method, it has mainly two routes, or branches after checking for the condition of the parameters. In case the factor argument is a negative double, it throws an exception, otherwise it will generate a new range based on inputted arguments. With that said, the method is composed of 2 branches, 5 lines and 1 method itself, leading the group to create 2 methods to test this portion of the Range.java class: scalePositive() and scaleNegative().
