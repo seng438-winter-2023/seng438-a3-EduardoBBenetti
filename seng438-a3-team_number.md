@@ -79,7 +79,23 @@ Finally, the team was able to increase the line, branch and method coverage of t
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
-Text…
+**Range Class:**
+![image](https://user-images.githubusercontent.com/90352983/222763959-8d46e59d-770e-40fd-8be7-db104b47d26f.png)
+![image](https://user-images.githubusercontent.com/90352983/222764038-3b66463d-2ca3-4358-b408-36af149a9f75.png)
+![image](https://user-images.githubusercontent.com/90352983/222764347-5dec76df-2981-4c7d-b954-fed165af32f5.png)
+![image](https://user-images.githubusercontent.com/90352983/222764445-1aaaab62-41a8-451a-af79-2997f288f60c.png)
+![image](https://user-images.githubusercontent.com/90352983/222764506-e3e684db-1b37-42b9-9dd4-117be7b21c48.png)
+![image](https://user-images.githubusercontent.com/90352983/222764556-1083f695-757a-4309-8458-dcac1456b72e.png)
+![image](https://user-images.githubusercontent.com/90352983/222764639-bdaa1184-abe6-4036-b5ad-b05dca97dda3.png)
+![image](https://user-images.githubusercontent.com/90352983/222764707-7a73b872-6dbc-4d60-a5b9-194af78e6a4e.png)
+![image](https://user-images.githubusercontent.com/90352983/222764774-5732b278-68b6-4307-b9c6-36a383221194.png)
+![image](https://user-images.githubusercontent.com/90352983/222764850-ea5ff7a6-0f00-4f0d-82f0-51d651093d34.png)
+![image](https://user-images.githubusercontent.com/90352983/222764935-00f32286-2219-4e2d-9da6-a67e253b88c4.png)
+![image](https://user-images.githubusercontent.com/90352983/222764996-0e3ec7ec-82d4-48a9-bfe5-24d7eb830381.png)
+![image](https://user-images.githubusercontent.com/90352983/222765074-4554024c-06a9-441a-b7d2-1e33edc90dae.png)
+![image](https://user-images.githubusercontent.com/90352983/222765145-552423e8-351d-4918-90e9-78bbb655d319.png)
+![image](https://user-images.githubusercontent.com/90352983/222765249-c6708d98-4ee9-4c9a-b647-ee73c3ce3b55.png)
+
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
@@ -96,7 +112,7 @@ The team divided the work equally among all members. Similar to the previous ass
 
 # 9 Any difficulties encountered, challenges overcome, and lessons learned from performing the lab
 
-We faced difficulties as the hamcrest eternal library is corrupted for this assignment so we needed to get the one from assignment 2. We couldn't
+Text…
 
 # 10 Comments/feedback on the lab itself
 
