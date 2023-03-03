@@ -66,12 +66,13 @@ Finally, the team was able to increase the line, branch and method coverage of t
 ![WhatsApp Image 2023-03-02 at 17 28 16](https://user-images.githubusercontent.com/30624408/222609895-a79b77fc-2dd9-49e3-9d10-689e5da062f2.jpg)
 
 
-**Method:**       
+--------------------------------------
+**Method: scale(Range base, double factor)**       
 **Class: DataUtilities.java**
     
   
    
-**Method:**       
+**Method: scale(Range base, double factor)**       
 **Class: DataUtilities.java**
 
 
@@ -82,7 +83,7 @@ Text…
 
 # 6 Pros and Cons of coverage tools used and Metrics you report
 
-Text…
+The coverage tool used by our group was EclEmma. This tool comes automatically built in the Eclipse IDE. Since the coverage tool came pre installed with Eclipse, the procedure for installing the tool was simple and fast. The EclEmma coverage tool had a few pros and cons while testing the classes. For the cons, the tool is fairly complicated to find where the coverage metrics can be switched to each of the coverage metrics chosen. Once the menu to change it is found, the whole procedure becomes simpler and easier to use. Another con is that the EclEmma tool does not support the statement and condition coverages, but as specified in the markdown file, other types of coverages can be used to replace them. On the other hand, the EclEmma is very user-friendly, every detail for which coverage type is not being covered is highlighted with the colors green (code covered) and red (code not covered), and the tool shows exactly how much percent of the code is covered. Therefore, our group highly recommends the use of EclEmma for the simplicity of the tool and for the efficient of it.
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
