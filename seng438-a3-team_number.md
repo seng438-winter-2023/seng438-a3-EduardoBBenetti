@@ -39,6 +39,19 @@ As a result, the combine() method achieved 100% line, method and branch coverage
 
 ![WhatsApp Image 2023-03-02 at 15 45 13](https://user-images.githubusercontent.com/30624408/222608833-1e0b9b21-8c6c-4848-82bf-4fdc97ae7a5f.jpg)
 
+**Method: expandToInclude(Range range, double value)**
+**Class: Range.java**
+
+As the previous method, expandToInclude() was not part of the chosen functions to be tested previously. With that said, EclEmma displayed a 0% coverage for all types: line, method and branch for this method. Since it is composed by the 4 possible if statements (or branches), the function has to have at least 4 test function. Additionally, it is composed of 7 lines of code and the representing 1 method itself. In order to increase the test coverage of this method, the team created 4 test functions: expandToIncludeLessThanLower(), expandToIncludeValueMoreThanUpper(), expandToIncludeEqual() and expandToIncludeRangeNull(). 
+
+- As for the first if statement, expandToIncludeRangeNull() avoid the function from receiving a null Range argument which can lead to further issues. With that this method, passes a null Range object, leading to increase of branch coverage since the if statement represents the first branch, plus the 2 respective lines of code and the method itself. 
+- Secondly, expandToIncludeLessThanLower() passes a value argument of -4 which is lower than the lower bound of the exampleRange (which was set to be a Range from -2 to 3). With that, the second if statement (second branch) is now true. Consequently leading to another tested branch and 2 more lines covered by the test file
+- Thirdly, expandToIncludeValueMoreThanUpper() is used on the third if statement. In that case, the value argument (set to 4) is greater than the upper bound of the exampleRange (set to be from -2 to 3). With that, this test method covered another branch of the Range class, in addition to another 2 lines of covered code
+- Lastly, the expandToIncludeEqual() receives a value argument with a value which is within the range of the Range object. For that reason, the function will not perform any expansion since the value is within the Range. With a value of 2 and the exampleRange set to be a range from -2 to 3, the method will fall under the last branch, represented by the only else statement in the function. With that, the last possible branch of the method was covered in addition to the last line of the method returning the Range object passed by argument: return range;
+
+As a result, this method went from 0% to 100% coverage for the line, branch and method types, increasing the overall coverage of the Range.java class.
+
+
 
 
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
