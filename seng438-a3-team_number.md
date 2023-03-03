@@ -17,7 +17,8 @@ This lab session and report follows a in depth analysis of the coverage techniqu
 
 # 2 Manual data-flow coverage calculations for X and Y methods
 
-Text…
+![DU pair](https://user-images.githubusercontent.com/30624408/222652916-8e2d87a9-8c47-48a6-9e4b-9a08253d0934.jpg)
+
 
 # 3 A detailed description of the testing strategy for the new unit test
 
