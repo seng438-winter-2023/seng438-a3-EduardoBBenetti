@@ -2,7 +2,7 @@
 
 **Lab. Report #3 – Code Coverage, Adequacy Criteria and Test Case Correlation**
 
-| Group \#:      |     |
+| Group \#:      |  4    |
 | -------------- | --- |
 | Student Names: | Ammar Elzeftawy    |
 |                | David San Kim      |
