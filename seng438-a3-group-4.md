@@ -144,7 +144,8 @@ In summary:
 Requirement-based approach          
 PROS          
 - complete test coverage
-- early defect detection              
+- early defect detection  
+            
 CONS          
 - High cost
 - Time consuming
@@ -152,7 +153,8 @@ CONS
 Coverage-based approach      
 PROS          
 - Cost effective
-- Efficient for a specific set fo criterias            
+- Efficient for a specific set fo criterias  
+          
 CONS         
 - Incomplete test coverage
 - Limited validations
