@@ -19,6 +19,7 @@ This lab session and report follows a in depth analysis of the coverage techniqu
 
 ![DU pair (1)](https://user-images.githubusercontent.com/30624408/222865928-e880b48f-6f34-433b-ac70-be522f794979.jpg)
 
+<img width="800" alt="Screen Shot 2023-03-03 at 2 57 37 PM" src="https://user-images.githubusercontent.com/86868318/222869750-52a76b92-1264-4d3f-92cb-6af17d245501.png">
 
 
 # 3 A detailed description of the testing strategy for the new unit test
