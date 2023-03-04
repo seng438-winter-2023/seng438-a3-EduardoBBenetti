@@ -20,7 +20,8 @@ This lab session and report follows a in depth analysis of the coverage techniqu
 ![DU pair (1)](https://user-images.githubusercontent.com/30624408/222865928-e880b48f-6f34-433b-ac70-be522f794979.jpg)
 
 <img width="800" alt="Screen Shot 2023-03-03 at 2 57 37 PM" src="https://user-images.githubusercontent.com/86868318/222869750-52a76b92-1264-4d3f-92cb-6af17d245501.png">
-![image](https://user-images.githubusercontent.com/86868318/222878781-95615377-0271-46ed-958e-d25f0552841c.png)
+
+![WhatsApp Image 2023-03-03 at 10 57 16 PM](https://user-images.githubusercontent.com/86868318/222878973-97551c98-a355-40cd-a0ca-72a2ae32e556.jpeg)
 
 
 
