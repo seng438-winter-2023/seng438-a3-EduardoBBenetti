@@ -478,6 +478,14 @@ public class DataUtilitiesTest {
 	// New Tests Done for Assignment 3
 	//**************************************************************
 	
+	/*
+	 * method to test equal(double[][] a, double[][] b)
+	 * in DataUtilities Class
+	 * 
+	 * 2 equal valid double[][] are given to the function
+	 * 
+	 * result method should return a boolean true
+	 */
 	@Test
 	public void testEqualWithEqualArrays() {
 		
@@ -491,6 +499,14 @@ public class DataUtilitiesTest {
 		assertEquals(expected, actual);
 	}
 	
+	/*
+	 * method to test equal(double[][] a, double[][] b)
+	 * in DataUtilities Class
+	 * 
+	 * 2 null double[][] are given to the function
+	 * 
+	 * result method should return a boolean true 
+	 */
 	@Test
 	public void testEqualWithNullArrays() {
 		
@@ -504,6 +520,14 @@ public class DataUtilitiesTest {
 		assertEquals(expected, actual);
 	}
 	
+	/*
+	 * method to test equal(double[][] a, double[][] b)
+	 * in DataUtilities Class
+	 * 
+	 * 1 null double[][] and 1 valid double[][] are given to the function
+	 * 
+	 * result method should return a boolean false 
+	 */
 	@Test
 	public void testEqualWithOneNullAndNonNull() {
 		
@@ -517,6 +541,14 @@ public class DataUtilitiesTest {
 		assertEquals(expected, actual);
 	}
 	
+	/*
+	 * method to test equal(double[][] a, double[][] b)
+	 * in DataUtilities Class
+	 * 
+	 * 2 equal valid double[][] with different lengths are given to the function
+	 * 
+	 * result method should return a boolean false 
+	 */
 	@Test
 	public void testEqualWithDifferentLengthArrays() {
 		
@@ -530,6 +562,14 @@ public class DataUtilitiesTest {
 		assertEquals(expected, actual);
 	}
 	
+	/*
+	 * method to test equal(double[][] a, double[][] b)
+	 * in DataUtilities Class
+	 * 
+	 * 2 equal valid double[][] with different arrays are given to the function
+	 * 
+	 * result method should return a boolean false 
+	 */
 	@Test
 	public void testEqualWithSameLengthDifferentArrays() {
 		
@@ -543,6 +583,14 @@ public class DataUtilitiesTest {
 		assertEquals(expected, actual);
 	}
 	
+	/*
+	 * method to test clone(double[][] source)
+	 * in DataUtilities Class
+	 * 
+	 * a valid double[][] is given to the function
+	 * 
+	 * result method should return a clone of the double[][]
+	 */
 	@Test
 	public void testCloneWithValidArray() {
 		
@@ -553,6 +601,16 @@ public class DataUtilitiesTest {
 		assertArrayEquals(expected, actual);
 	}
 	
+	/*
+	 * method to test calculateColumnTotal(Values2D data, int column,
+             int[] validRows)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values, and a valid int[] column
+	 * 
+	 * result should be 14
+	 */
 	@Test
 	public void testCalculateColumnTotalWithValidRowsSpecified() {
 
@@ -604,7 +662,16 @@ public class DataUtilitiesTest {
 
 	}
 	
-	
+	/*
+	 * method to test calculateColumnTotal(Values2D data, int column,
+             int[] validRows)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values, and an invalid int[] column
+	 * 
+	 * result should be 0
+	 */
 	@Test
 	public void testCalculateColumnTotalWithInvalidRows() {
 
@@ -655,7 +722,16 @@ public class DataUtilitiesTest {
 		assertEquals(0.0, result, .000000001d);
 
 	}
-	
+	/*
+	 * method to test calculateColumnTotal(Values2D data, int column,
+             int[] validRows)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values, and a null int[] column
+	 * 
+	 * result should be 0
+	 */
 	@Test
 	public void testCalculateColumnTotalWithValidRowsNullValues() {
 
@@ -707,6 +783,15 @@ public class DataUtilitiesTest {
 
 	}
 	
+	/*
+	 * method to test calculateColumnTotal(Values2D data, int column)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with null values
+	 * 
+	 * result should be 5
+	 */
 	@Test
 	public void testCalculateColumnTotalWithNullValues() {
 
@@ -757,6 +842,16 @@ public class DataUtilitiesTest {
 
 	}
 	
+	/*
+	 * method to test calculateRowTotal(Values2D data, int row)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with null values
+	 *
+	 * 
+	 * result method should return 10
+	 */
 	@Test
 
 	public void calculateRowTotalWithNullValues() {
@@ -799,6 +894,16 @@ public class DataUtilitiesTest {
 
 	}
 	
+	/*
+	 * method to test calculateRowTotal(Values2D data, int row, int[] validCols)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values
+	 * and a positive value given for row and a valid int[] for validCols
+	 * 
+	 * result method should return 8.5
+	 */
 	@Test
 
 	public void calculateRowTotalWithValidColumns() {
@@ -850,6 +955,16 @@ public class DataUtilitiesTest {
 
 	}
 	
+	/*
+	 * method to test calculateRowTotal(Values2D data, int row, int[] validCols)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values
+	 * and a positive value given for row and a null for validCols
+	 * 
+	 * result method should return 13.5
+	 */
 	@Test
 
 	public void calculateRowTotalWithValidColumnsNullValues() {
@@ -901,6 +1016,16 @@ public class DataUtilitiesTest {
 
 	}
 	
+	/*
+	 * method to test calculateRowTotal(Values2D data, int row, int[] validCols)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values
+	 * and a positive value given for row and an invalid int[] for validCols
+	 * 
+	 * result method should return 0
+	 */
 	@Test
 
 	public void calculateRowTotalWithInValidColumns() {
@@ -952,6 +1077,15 @@ public class DataUtilitiesTest {
 
 	}
 	
+	/*
+	 * method to test getCumulativePercentage(keyedValues values)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock keyedValues objects
+	 * a valid keyedValues mock is done with null values
+	 * 
+	 * result method should return a keyedValues object containing the correct cumulative percentages
+	 */
 	@Test
 
 	public void testGetCumulativePercentageWithNullValues() {
