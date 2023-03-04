@@ -138,7 +138,24 @@ The group used EclEmma as a coverage tool to assess the code coverage of the Jav
 
 # 7 A comparison on the advantages and disadvantages of requirements-based test generation and coverage-based test generation.
 
-Text…
+Requirements-based test generation and coverage-based test generation are two popular approaches for generating test cases. On one hand, requirements-based test generation ensures complete test coverage by analyzing the requirements and tracing the generated test cases back to the requirements, allowing for early detection of defects and better validation of the system. However, it can be costly and time-consuming, and lastly, its scopee may be limited. On the other hand, coverage-based test generation is a cost-effective and efficient approach that covers all aspects of the system, but it may not provide complete test coverage, comprehensive validation of the system against the requirements, or easy traceability of the test cases back to the requirements. Ultimately, the choice between these two approaches will depend on the specific requirements and constraints of the project at hand.
+
+In summary:
+Requirement-based approach
+PROS
+- complete test coverage
+- early defect detection
+CONS
+- High cost
+- Time consuming
+
+Coverage-based approach
+PROS
+- Cost effective
+- Efficient for a specific set fo criterias
+CONS
+- Incomplete test coverage
+- Limited validations
 
 # 8 A discussion on how the team work/effort was divided and managed
 
