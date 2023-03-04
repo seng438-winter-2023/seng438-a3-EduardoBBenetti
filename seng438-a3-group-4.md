@@ -97,6 +97,8 @@ This method was also not covered in assignment 2 and had no test cases for it, t
 
 -testCalculateColumnTotalWithValidRowsNullValues(): this test case is given an int array with a list of valid rows found in the table, however the entries in some of those rows are null. this covers the inner (second) if branch in the for loop
 
+![image](https://user-images.githubusercontent.com/30624408/222861889-9f22f2fd-e30f-4d7b-82ef-55c867beb12c.png)
+
 # 5 A detailed report of the coverage achieved of each class and method (a screen shot from the code cover results in green and red color would suffice)
 
 **Range Class:**                
