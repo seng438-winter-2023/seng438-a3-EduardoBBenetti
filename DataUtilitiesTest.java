@@ -15,9 +15,21 @@ import org.jmock.*;
 import org.junit.Test;
 
 public class DataUtilitiesTest {
+	
+	//**************************************************************
+	// Previous Tests Done for Assignment 2
+	//**************************************************************
 
+	/*
+	 * method to test calculateColumnTotal(Values2D data, int column)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values
+	 * 
+	 * result should be 5
+	 */
 	@Test
-
 	public void calculateColumnTotalForFourValues() {
 
 		Mockery mockingContext = new Mockery();
@@ -58,8 +70,18 @@ public class DataUtilitiesTest {
 
 	}
 
+	
+	/*
+	 * method to test calculateColumnTotal(Values2D data, int column)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values
+	 * and a negative value for column is given
+	 * 
+	 * result: method should return 0
+	 */
 	@Test
-
 	public void calculateColumnTotalWithInvalidInput() {
 
 		Mockery mockingContext = new Mockery();
@@ -100,8 +122,16 @@ public class DataUtilitiesTest {
 
 	}
 
+	/*
+	 * method to test calculateColumnTotal(Values2D data, int column)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with null values
+	 * 
+	 * result should throw an exception
+	 */
 	@Test(expected = InvalidParameterException.class)
-
 	public void calculateColumnTotalWithInvalidParameter() throws InvalidParameterException {
 
 		Mockery mockingContext = new Mockery();
@@ -129,9 +159,17 @@ public class DataUtilitiesTest {
 		assertEquals(0, result, .000000001d);
 
 	}
-
+	
+	/*
+	 * method to test calculateRowTotal(Values2D data, int row)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with null values
+	 * 
+	 * result should throw an exception
+	 */
 	@Test(expected = InvalidParameterException.class)
-
 	public void calculateRowTotalWithInvalidParameter() throws InvalidParameterException {
 
 		Mockery mockingContext = new Mockery();
@@ -160,8 +198,17 @@ public class DataUtilitiesTest {
 
 	}
 
+	/*
+	 * method to test calculateRowTotal(Values2D data, int row)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values
+	 * and a negative value for rows is given
+	 * 
+	 * result method should return 0
+	 */
 	@Test
-
 	public void calculateRowTotalWithInvalidInput() {
 
 		Mockery mockingContext = new Mockery();
@@ -202,8 +249,17 @@ public class DataUtilitiesTest {
 
 	}
 
+	/*
+	 * method to test calculateRowTotal(Values2D data, int row)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock Values2D objects
+	 * a valid Values2D mock is done with valid values
+	 * and a positive value given for row
+	 * 
+	 * result method should return 5
+	 */
 	@Test
-
 	public void calculateRowTotalForFourValues() {
 
 		Mockery mockingContext = new Mockery();
@@ -244,8 +300,15 @@ public class DataUtilitiesTest {
 
 	}
 
+	/*
+	 * method to test createNumberArray(double[] array)
+	 * in DataUtilities Class
+	 * 
+	 * a valid double[] is given to the function
+	 * 
+	 * result should be Number[] equivalent to the double[]
+	 */
 	@Test
-
 	public void testCreateNumberArray() {
 
 		double[] input = { 1, 2, 3, 4, 5 };
@@ -258,8 +321,14 @@ public class DataUtilitiesTest {
 
 	}
 
+	/*
+	 * method to test createNumberArray(double[] array)
+	 * in DataUtilities Class
+	 * a null double[] is passed to the method
+	 * 
+	 * result should throw an exception
+	 */
 	@Test(expected = InvalidParameterException.class)
-
 	public void testCreateNumberArrayWithInvalidData() throws InvalidParameterException {
 
 		double[] input = null;
@@ -268,8 +337,15 @@ public class DataUtilitiesTest {
 
 	}
 
+	/*
+	 * method to test createNumberArray2D(double[][] array)
+	 * in DataUtilities Class
+	 * 
+	 * a valid double[][] is given to the function
+	 * 
+	 * result should be Number[][] equivalent to the double[][]
+	 */
 	@Test
-
 	public void testCreateNumberArray2D() {
 
 		double[][] input = { { 1, 2 }, { 3, 4 }, { 5, 9 } };
@@ -281,9 +357,16 @@ public class DataUtilitiesTest {
 		assertArrayEquals(expectedOutput, actualOutput);
 
 	}
-
+	
+	/*
+	 * method to test createNumberArray2D(double[][] array)
+	 * in DataUtilities Class
+	 * 
+	 * a null double[][] is given to the method 
+	 * 
+	 * result should throw an exception
+	 */
 	@Test(expected = InvalidParameterException.class)
-
 	public void testCreateNumberArray2DWithInvalidData() throws InvalidParameterException {
 
 		double[][] input = null;
@@ -292,8 +375,17 @@ public class DataUtilitiesTest {
 
 	}
 
+	
+	/*
+	 * method to test getCumulativePercentage(keyedValues values)
+	 * in DataUtilities Class
+	 * 
+	 * Jmock is used to mock keyedValues objects
+	 * a valid keyedValues mock is done with valid values
+	 * 
+	 * result method should return a keyedValues object containing the correct cumulative percentages
+	 */
 	@Test
-
 	public void testGetCumulativePercentage() {
 
 		Mockery mockingContext = new Mockery();
@@ -381,6 +473,10 @@ public class DataUtilitiesTest {
 		assertEquals(expectedOutput.getValue(2), actualOutput.getValue(2));
 
 	}
+	
+	//**************************************************************
+	// New Tests Done for Assignment 3
+	//**************************************************************
 	
 	@Test
 	public void testEqualWithEqualArrays() {
@@ -507,6 +603,7 @@ public class DataUtilitiesTest {
 		assertEquals(14.0, result, .000000001d);
 
 	}
+	
 	
 	@Test
 	public void testCalculateColumnTotalWithInvalidRows() {
