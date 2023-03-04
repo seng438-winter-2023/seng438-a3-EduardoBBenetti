@@ -83,6 +83,8 @@ This method was not covered in assignment 2, it is a new method introduced in Da
 
 - testEqualWithSameLengthDifferentArrays():this test case is given two valid arrays with same size but different elements to execute the method equal() on. this test covers the fourth if branch in the code of the method, which is inside the for loop.
   
+  ![image](https://user-images.githubusercontent.com/30624408/222861666-634391da-21c6-446b-98be-b0bf617e9361.png)
+
    
 **5) Method: calculateColumnTotal(Values2D data, int column, int[] ValidRows)**       
 **Class: DataUtilities.java**
